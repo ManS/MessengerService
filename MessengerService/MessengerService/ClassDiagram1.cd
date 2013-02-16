@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MessengerService.Model.DatabaseManipulator.DBManipulator" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAQEAAAAAAAAAAIAAAAAAIAAASAABAAABEAAAAAAAA=</HashCode>
+      <FileName>Model\DatabaseManipulator\DBManipulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessengerService.Model.DataContracts.AccountInfo" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAgAAIAAAA=</HashCode>
+      <FileName>Model\DataContracts\AccountInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessengerService.Model.DataContracts.UserInfo" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABIBAAAAgAAAEAAAAAAgAAAABAAAAAQAECAAAAAA=</HashCode>
+      <FileName>Model\DataContracts\UserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessengerService.Model.DataContracts.UserPersonalInfo" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEAEAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAg=</HashCode>
+      <FileName>Model\DataContracts\UserPersonalInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessengerService.FileMessage" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACA=</HashCode>
+      <FileName>Model\DataContracts\FileMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessengerService.InstantMessage" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DataContracts\InstantMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessengerService.Message" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAQAAAAAAEAAAkAAAAQABAAAkAAQ=</HashCode>
+      <FileName>Model\DataContracts\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessengerService.Model.MessengerService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAUACCAAABAoAAAQiAAIAAAiEQAAJAAABAAhAECAAA=</HashCode>
+      <FileName>Model\MessengerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MessengerService.Model.UserCallback" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAAAAAAAAAAAAAAAAAAAAAAAABAEAAAAAAAAAAA=</HashCode>
+      <FileName>Model\UserCallback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MessengerService.Model.IMessengerCallback">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICCAAABQAAAAAAAAAAAAAQIEAAAAAQAgAAAAAAAAQAA=</HashCode>
+      <FileName>Model\IMessengerCallback.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MessengerService.Model.IMessengerService" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUAAAAAAAAIAAAAgAAIAAAgEQAAJAAABAAhAAAAAA=</HashCode>
+      <FileName>Model\IMessengerService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MessengerService.Status" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Model\DataContracts\Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
